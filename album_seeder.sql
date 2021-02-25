@@ -1,6 +1,6 @@
 USE codeup_test_db;
 
-DROP TABLE albums IF EXISTS;
+DROP TABLE IF EXISTS albums;
 
 CREATE table albums (
                         id INT UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -25,5 +25,5 @@ VALUES ('Michael Jackson', 'Thriller', 1982, 47.3),
        ('Various artists', 'Grease: The Original Soundtrack from the Motion Picture', 1978, 14.4),
        ('Led Zeppelin', 'Led Zeppelin IV', 1971, 29.0),
        ('Michael Jackson', 'Bad', 1987, 22.2),
-       ('Alanis Morissette', 'Jagged Little Pill', 1995, 24.4),
+       ('Alanis Morissette', 'Jagged Little Pill', 1995, 24.4)
 
