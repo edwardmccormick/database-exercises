@@ -8,3 +8,6 @@
 # Compiled output
 *.class
 out/*
+
+# Block database
+employees_db/*
